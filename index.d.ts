@@ -11,3 +11,7 @@ export type SymbolMap<T> = {
 }
 
 export type Optional<T> = T | null;
+
+export type OptionalJSON<T> = {
+    [P in keyof T]?: T[P];
+}
