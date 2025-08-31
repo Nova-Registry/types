@@ -1,0 +1,22 @@
+{
+    "name": "@nova-registry/types",
+    "version": "0.1.0-dev.1",
+    "description": "Extra types for Nova-Registry.",
+    "author": {
+        "name": "Nova Registry",
+        "email": "nr-contact@wettstein.qzz.io",
+        "url": "https://github.com/Nova-Registry"
+    },
+    "maintainers": [
+        {
+            "name": "Talon Wettstein",
+            "url": "https://github.com/Diablo2009"
+        }
+    ],
+    "types": "index.d.ts",
+    "devDependencies": {
+        "@types/node": "^24.3.0",
+        "@types/semver": "^7.7.0",
+        "typescript": "^5.9.2"
+    }
+}
