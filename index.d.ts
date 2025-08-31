@@ -9,3 +9,5 @@ export type NumberMap<T> = {
 export type SymbolMap<T> = {
     [key: symbol]: T;
 }
+
+export type Optional<T> = T | null;
